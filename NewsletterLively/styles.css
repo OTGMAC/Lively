@@ -6,104 +6,155 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	background-image: 
+url("../../Documents/livelyBackground2.0.jpg");
+	background-size: cover; 
+	background-color: #cccccc; 
+}
+
+	
+
 
 h1 {
-	font-size: 100px;
+	font-size: 100px; 
 	text-align: center;
-	font-family: 'Barlow', sans-serif;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+	color: #bc6f28;
+	background-color:#ac4e55;
 
 }
 
-h2 {
-	font-size: 60px;
-	text-align: center;
-	font-family: 'Barlow', sans-serif;
-
-}
-
-
-p {
+h2{
 	font-size: 50px;
-	color: rgba(255,255,255,1.00);
-	background-image: url(../images/palm.jpg);
-	background-size: cover;
-	text-align: center;
-	font-family: 'Barlow', sans-serif;
-
+	background-color:#ac4e55;
+	
+	
 }
+
+h3{
+	font-size: 50px;
+	background-color:#ac4e55;
+	
+	
+	
+}
+
+h4{
+	font-size: 50px;
+	background-color:#ac4e55; 
+	background-size:contain;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+	display: block; 
+	margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+	margin-top: 20px; 
+	padding-left: 30px; 
+	padding-bottom: 30px;
+	padding-right: 30px; 
+	padding-top: 30px; 
+
+	
+
+	
+}
+
 
 p1{
-	font-size: 28px;
-	color: rgba(255,255,255);
-	background-size: cover;
-	text-align: center;
-	font-family: 'Barlow', sans-serif;
+	font-size: 25px;
+	background-color:#bb7479;
+	background-size:contain;
+	text-align: left;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+	display: block; 
+	width:550px;
+	margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+	margin-top: 20px; 
+	padding-left: 30px; 
+	padding-bottom: 30px;
+	padding-right: 30px; 
+	padding-top: 30px; 
 
 }
 
 p2{
-	font-size: 28px;
-	color: rgba(255,255,255);
-	background-size: cover;
-	text-align: center;
-	font-family: 'Barlow', sans-serif;
-
+	font-size: 30px;
+	background-color:#bb7479;
+	background-size:contain;
+	text-align: left;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+	display: block; 
+	width: 600px; 
+	margin-right: 20px;
+    margin-left:1300px;
+    margin-bottom: 20px;
+	margin-top: 20px; 
+	padding-left: 30px; 
+	padding-bottom: 30px;
+	padding-right: 30px; 
+	padding-top: 30px;
 }
 
 p3{
-	font-size: 28px;
-	color: rgba(255,255,255);
-	background-size: cover;
-	text-align: center;
-	font-family: 'Barlow', sans-serif;
-
+	font-size: 30px;
+	background-color:#bb7479;
+	background-size:contain;
+	text-align: left;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+	display: block; 
+	margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+	margin-top: 20px; 
+	padding-left: 30px; 
+	padding-bottom: 30px;
+	padding-right: 30px; 
+	padding-top: 30px;
+	
 }
 
 p4{
 	font-size: 30px;
-	color: rgba(255,255,255);
-	background-size: cover;
-	text-align: center;
-	font-family: 'Barlow', sans-serif;
+	background-color:#bb7479;
+	background-size:contain;
+	text-align: left;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+	display: block; 
+	margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+	margin-top: 20px; 
+	padding-left: 30px; 
+	padding-bottom: 30px;
+	padding-right: 30px; 
+	padding-top: 30px;
+}
 
+p5{
+	font-size: 30px;
+	background-color:#bb7479;
+	background-size:contain;
+	text-align: left;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+	display: block; 
+	margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+	margin-top: 20px; 
+	padding-left: 30px; 
+	padding-bottom: 30px;
+	padding-right: 30px; 
+	padding-top: 30px;
+}
+#Navbar{
+	background-color: #ac4e55;
+	
 }
 
 
-
-.something {
-    background-color: #85C2E8;
-    width: 103px;
-    border-radius: 20px;
-    height: 63px;
-    font-size: 32pt;
-    color: #000000;
-    text-align: center;
-    line-height: 55px;
-	font-family: 'Amatic SC', cursive;
-}
-
-div.container {
-	text-align: center;
-}
-
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-}
-
-.contact p2 {
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    box-sizing: content-box;
-    left: 40px;
-    padding-right: 30px;
-}
 
 
