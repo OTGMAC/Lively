@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 *{
 	margin:0;
 	padding:0;
@@ -161,4 +162,100 @@ opacity: 0.8;
 
 .footer-class{
 	text-align: center
+}
+=======
+@charset "utf-8";
+.header {	
+  text-align: center;
+  padding: 20px;
+  color: #d17536;
+  font-family: 'Bodoni MT Black';
+  font-style: italic;	
+  font-size: 90px;	 
+	
+}
+
+ul {
+  list-style-type: none;
+  padding: 15px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #F2A488;
+}
+
+
+
+
+.background{
+  background-image: url(../images/redbackgrnd.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;	
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	padding: 10px;
+	border: dashed;
+	border-color: #F2F2F2;
+	
+}
+
+.container > div {
+	padding: 10px;
+	margin:	65px;
+	background: #F2A488 ;
+	border: groove;
+	border-color: #F29188;
+
+}
+
+.container > div:nth-child(odd) {
+	padding: 10px;
+	
+}
+
+.workshops{
+	padding-left: 130px;
+	font-family: "aguafina-script";
+	font-style: italic;
+	color: #6B9FBF;
+}
+
+.girl1{
+	width:350px; height:350px; margin:10px;
+	border: groove; border-color: #6B9FBF;
+}
+
+.portrait{
+	width:350px;height:350px; margin:10px; border: groove; border-color: #6B9FBF;
+}
+
+.bodypaint{
+    width:350px;height:350px; margin:10px; border: groove; border-color: #6B9FBF;
+}
+
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 30px;
+  margin-top: 15px;	
 }
