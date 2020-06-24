@@ -97,17 +97,19 @@ li a:hover {
 	
 }
 .h3footer{
-	color: #6B9FBF;
+    color: #6B9FBF;
+    font-size: xx-large;
 }
 .h2footer{
 	color:#6B9FBF;
 }
-.fa{
-	color: aqua;
-}
-.fa-phone{
-	color:#F29188;
-}
 span{ 
 color:#F29188;
+}
+
+.btn{
+background-color:#F2B263; 	
+}
+
+	
 }
