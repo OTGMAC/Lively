@@ -23,7 +23,7 @@ ul {
 }
 
 li {
-  float: left;
+  float: centre;
 }
 
 li a {
@@ -32,13 +32,13 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: #FFFFFF;
+    background-color: ##F2B263;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #F29188;
-	color: white;
+	color: #FFFFFF;
 }
 
 
@@ -163,8 +163,6 @@ opacity: 0.8;
 .footer-class{
 	text-align: center
 }
-=======
-@charset "utf-8";
 .header {	
   text-align: center;
   padding: 20px;
