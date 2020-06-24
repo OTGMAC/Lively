@@ -136,3 +136,23 @@ background-color:#F2B263;
     margin-bottom: 20px;
     box-sizing: content-box;
 }
+//Carousel Styling//
+.carousel {
+	height: 550px;
+	width: 875px;
+}
+.carousel-head {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 0px #000000;
+}
+.carousel-text{
+    color: #F2B263;
+    font-weight: bold;
+    text-shadow: 2px 0px #000000;
+}
+.d-block{
+opacity: 0.8;
+}
+
+//End of Carousel Styling//
