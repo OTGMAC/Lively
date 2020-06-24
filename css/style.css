@@ -1,13 +1,14 @@
 @charset "utf-8";
 
-.header {	
-  text-align: center;
-  padding: 20px;
-  color: #d17536;
-  font-family: 'Bodoni MT Black';
-  font-style: italic;	
-  font-size: 90px;	 
-	
+.header {
+    text-align: center;
+    padding: 20px;
+    color: #F2B263;
+    font-family: 'Bodoni MT Black';
+    font-style: italic;
+    font-size: 90px;
+    text-shadow: 0px 2px #000000;
+    font-weight: bold;
 }
 
 ul {
@@ -22,11 +23,12 @@ li {
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: #F2B263;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #FFFFFF;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -66,4 +68,16 @@ li a:hover {
   background-color: #F1F1F1;
   text-align: center;
   padding: 10px;
+}
+
+.homepagebackground-class{
+    background-image: url(../images/Background%20Original%20BRM%20Lively.jpg);
+}
+
+.homepagesubheader-class{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    background-color: #F2A488;
+    font-size: xx-large;
+    color: #FFFFFF;
 }
