@@ -76,7 +76,13 @@ li a:hover {
 
 .girl1{
 	width:350px; height:350px; margin:10px;
-	border: groove; border-color: #6B9FBF;
+	border: groove; border-color: #6B9FBF; float: left;
+}
+.girl1p{
+  float: right;
+  width: 300px;
+  padding: 10px;
+  overflow: auto;
 }
 
 .portrait{
