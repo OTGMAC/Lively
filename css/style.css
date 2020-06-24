@@ -1,5 +1,8 @@
 @charset "utf-8";
-
+*{
+	margin:0;
+	padding:0;
+}
 .header {
     text-align: center;
     padding: 20px;
@@ -80,4 +83,31 @@ li a:hover {
     background-color: #F2A488;
     font-size: xx-large;
     color: #FFFFFF;
+}
+.footer-bottom-text{
+    background-color: white;
+    color: #F2B263;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.container-footer{
+	
+}
+.h3footer{
+	color: #6B9FBF;
+}
+.h2footer{
+	color:#6B9FBF;
+}
+.fa{
+	color: aqua;
+}
+.fa-phone{
+	color:#F29188;
+}
+span{ 
+color:#F29188;
 }
