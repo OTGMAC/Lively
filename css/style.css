@@ -36,7 +36,8 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #bf727e;
+  background-color: #F29188;
+	color: white;
 }
 
 
@@ -74,7 +75,7 @@ li a:hover {
 }
 
 .homepagebackground-class{
-    background-image: url(../images/Background%20Original%20BRM%20Lively.jpg);
+    background-image: url(../images/BackgroundOriginalBRMLively.jpg);
 }
 
 .homepagesubheader-class{
@@ -82,6 +83,7 @@ li a:hover {
     text-align: center;
     background-color: #F2A488;
     font-size: xx-large;
+    margin: 0;
     color: #FFFFFF;
 }
 .footer-bottom-text{
@@ -110,6 +112,27 @@ color:#F29188;
 .btn{
 background-color:#F2B263; 	
 }
+.facebook-logo{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.instagram-logo{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
-	
+.images{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: auto;
+    padding-bottom: 0px;
+}
+.navbar{
+    height: 85px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    box-sizing: content-box;
 }
