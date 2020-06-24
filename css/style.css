@@ -139,7 +139,6 @@ background-color:#F2B263;
     margin-bottom: 20px;
     box-sizing: content-box;
 }
-//Carousel Styling//
 .carousel{
 	max-height: 550px;
 	max-width: 875px;
@@ -159,7 +158,6 @@ background-color:#F2B263;
 .d-block{
 opacity: 0.8;
 }
-//End of Carousel Styling//
 
 .footer-class{
 	text-align: center
