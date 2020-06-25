@@ -370,6 +370,12 @@ li a:hover {
 }
 .carousel{
     margin: centre;
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .logintext-class{
     color: #6B9FBF;
