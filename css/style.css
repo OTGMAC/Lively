@@ -367,6 +367,12 @@ li a:hover {
 .carouselheader-class{
     font-weight: bold;
     font-size: xx-large;
+    color: #FFFFFF;
+    text-shadow: 0.5px 0px #000000;
+}
+.carouselsubheader-class{
+    color: #FFFFFF;
+    text-shadow: 0.5px 0px #000000;
 }
 .carousel{
     margin: centre;
