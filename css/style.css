@@ -374,9 +374,9 @@ li a:hover {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    padding-left: 250px;
+    padding-left: 270px;
     padding-right: 150px;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 	margin-top: 50px;
 }
 .logintext-class{
@@ -385,4 +385,7 @@ li a:hover {
 }
 .d-block{
     background-color: #FFFFFF;	
+}
+.carousel-inner{
+	background-color: white;
 }
