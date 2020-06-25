@@ -404,4 +404,9 @@ li a:hover {
     padding-left: 200px;
     padding-right: 200px;
     display: compact;
+	
+}
+.col{
+	text-align: center;
+	align-items: center
 }
