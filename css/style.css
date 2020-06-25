@@ -399,3 +399,9 @@ li a:hover {
 .carousel-inner{
 	background-color: white;
 }
+.row{
+    margin: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: compact;
+}
