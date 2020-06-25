@@ -367,11 +367,31 @@ li a:hover {
 .carouselheader-class{
     font-weight: bold;
     font-size: xx-large;
+    color: #FFFFFF;
+    text-shadow: 0.5px 0px #000000;
+}
+.carouselsubheader-class{
+    color: #FFFFFF;
+    text-shadow: 0.5px 0px #000000;
 }
 .carousel{
     margin: centre;
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-left: 270px;
+    padding-right: 150px;
+	margin-bottom: 70px;
+	margin-top: 50px;
 }
 .logintext-class{
     color: #6B9FBF;
     font-size: x-large;
+}
+.d-block{
+    background-color: #FFFFFF;	
+}
+.carousel-inner{
+	background-color: white;
 }
