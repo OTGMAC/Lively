@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-@charset "utf-8";
+
 .header {	
   text-align: center;
   padding: 20px;
@@ -7,14 +6,15 @@
   font-family: 'Bodoni MT Black';
   font-style: italic;	
   font-size: 90px;	 
-	
 }
+
 
 ul {
   list-style-type: none;
   padding: 15px;
   overflow: hidden;
 }
+
 
 li {
   float: left;
@@ -28,9 +28,11 @@ li a {
   text-decoration: none;
 }
 
-
 li a:hover {
   background-color: #F2A488;
+  border: dashed;
+  border-color: #6B9FBF;	
+  border-radius: 90px ;	
 }
 
 
@@ -44,54 +46,66 @@ li a:hover {
 }
 
 .container{
-	display: grid;
-	grid-template-columns: 70% 30%;
-	grid-column-gap: 20px;
-	grid-row-gap: 20px;
-	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	grid-column-gap: 15px;
+	align-items: stretch;
 	border: dashed;
-	border-color: #F2F2F2;
-	
+	border-color: #f2f2f2;
+	padding: 80px;
 }
 
-.container > div {
+.box {
 	padding: 10px;
-	margin:	65px;
-	background: #F2A488 ;
-	border: groove;
+	margin: 15px;
+	background:  #f2a488;
+	border: double;
 	border-color: #F29188;
-
+	border-width: thick;
+	
+	
 }
 
-.container > div:nth-child(odd) {
-	padding: 10px;
+.events {
 	
+	padding: 10px;
+	margin: 15px;
+	background:  #F29188;
+	border: double;
+	border-color: #f2a488;
+	border-width: thick;
 }
 
 .workshops{
-	padding-left: 130px;
-	font-family: "aguafina-script";
-	font-style: italic;
-	color: #6B9FBF;
+	margin-left: 200px;
+	
 }
+
+.txt{
+	line-height: 40px;
+	padding: 55px;
+	margin: 15px;
+}
+
+.imgbx{
+	float: left;
+	margin: 25px;
+	padding: 15px;
+	border: groove;
+	border-color: #6B9FBF;
+}
+
 
 .girl1{
-	width:350px; height:350px; margin:10px;
-	border: groove; border-color: #6B9FBF; float: left;
-}
-.girl1p{
-  float: right;
-  width: 300px;
-  padding: 10px;
-  overflow: auto;
-}
+	width: 350px;
+	height: 300px;
 
-.portrait{
-	width:350px;height:350px; margin:10px; border: groove; border-color: #6B9FBF;
 }
 
 .bodypaint{
-    width:350px;height:350px; margin:10px; border: groove; border-color: #6B9FBF;
+	width: 350px;
+	height: 300px;
+	
 }
 
 .footer {
@@ -100,264 +114,3 @@ li a:hover {
   padding: 30px;
   margin-top: 15px;	
 }
-=======
-@charset "utf-8";
-
-*{
-	margin:0;
-	padding:0;
-}
-.header {
-    text-align: center;
-    padding: 20px;
-    color: #F2B263;
-    font-family: 'Bodoni MT Black';
-    font-style: italic;
-    font-size: 90px;
-    text-shadow: 0px 2px #000000;
-    font-weight: bold;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: centre;
-}
-
-li a {
-    display: block;
-    color: #F2B263;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: ##F2B263;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #F29188;
-	color: #FFFFFF;
-}
-
-
-
-
-.background{
-  background-image: url(../images/abstract-expressionism-abstract-painting-acrylic-1577286.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.container{
-    display: grid;
-    grid-template-columns: 70% 30%;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    margin: auto;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-}
-
-.container > div {
-	background: #FFFFFF;
-	padding: 10px;
-	margin:	65px;
-}
-
-.container > div:nth-child(odd) {background: rgba(255,255,255,1.00);
-	padding: 10px;
-}
-
-.footer {
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 10px;
-}
-
-.homepagebackground-class{
-    background-image: url(../images/BackgroundOriginalBRMLively.jpg);
-}
-
-.homepagesubheader-class{
-    font-family: 'Fredericka the Great', cursive;
-    text-align: center;
-    background-color: #F2A488;
-    font-size: xx-large;
-    margin: 0;
-    color: #FFFFFF;
-}
-.footer-bottom-text{
-    background-color: white;
-    color: #F2B263;
-    text-align: center;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-}
-
-.container-footer{
-	
-}
-.h3footer{
-    color: #6B9FBF;
-    font-size: xx-large;
-}
-.h2footer{
-	color:#6B9FBF;
-}
-span{ 
-color:#F29188;
-}
-
-.btn{
-background-color:#F2B263; 	
-}
-.facebook-logo{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.instagram-logo{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.images{
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    margin: auto;
-    padding-bottom: 0px;
-}
-.navbar{
-    height: 85px;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    box-sizing: content-box;
-}
-.carousel{
-	max-height: 550px;
-	max-width: 875px;
-	text-align: center
-}
-.carousel-head {
-    color: white;
-    font-weight: bold;
-    text-shadow: 2px 0px #000000;
-	text-align: center
-}
-.carousel-text{
-    color: #F2B263;
-    font-weight: bold;
-    text-shadow: 2px 0px #000000;
-}
-.d-block{
-opacity: 0.8;
-}
-
-.footer-class{
-	text-align: center
-}
-.header {	
-  text-align: center;
-  padding: 20px;
-  color: #d17536;
-  font-family: 'Bodoni MT Black';
-  font-style: italic;	
-  font-size: 90px;	 
-	
-}
-
-ul {
-  list-style-type: none;
-  padding: 15px;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-
-li a:hover {
-  background-color: #F2A488;
-}
-
-
-
-
-.background{
-  background-image: url(../images/redbackgrnd.jpg);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;	
-}
-
-.container{
-	display: grid;
-	grid-template-columns: 70% 30%;
-	grid-column-gap: 20px;
-	grid-row-gap: 20px;
-	padding: 10px;
-	border: dashed;
-	border-color: #F2F2F2;
-	
-}
-
-.container > div {
-	padding: 10px;
-	margin:	65px;
-	background: #F2A488 ;
-	border: groove;
-	border-color: #F29188;
-
-}
-
-.container > div:nth-child(odd) {
-	padding: 10px;
-	
-}
-
-.workshops{
-	padding-left: 130px;
-	font-family: "aguafina-script";
-	font-style: italic;
-	color: #6B9FBF;
-}
-
-.girl1{
-	width:350px; height:350px; margin:10px;
-	border: groove; border-color: #6B9FBF;
-}
-
-.portrait{
-	width:350px;height:350px; margin:10px; border: groove; border-color: #6B9FBF;
-}
-
-.bodypaint{
-    width:350px;height:350px; margin:10px; border: groove; border-color: #6B9FBF;
-}
-
-.footer {
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 30px;
-  margin-top: 15px;	
-}
->>>>>>> d18e04be692e13fbb77d4460fbbe011e14a2f0a6
