@@ -164,7 +164,7 @@ li a:hover {
 .container > div {
 	background: #FFFFFF;
 	padding: 10px;
-	margin:	65px;
+	margin: auto;
 }
 
 .container > div:nth-child(odd) {background: rgba(255,255,255,1.00);
@@ -378,15 +378,16 @@ li a:hover {
     text-shadow: 0.5px 0px #000000;
 }
 .carousel{
-    margin: centre;
     display: block;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    padding-left: 270px;
-    padding-right: 150px;
-	margin-bottom: 70px;
-	margin-top: 50px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    left: 150px;
+    right: 150px;
 }
 .logintext-class{
     color: #6B9FBF;
